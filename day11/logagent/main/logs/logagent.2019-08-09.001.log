@@ -1,0 +1,16 @@
+2019/08/07 09:16:05.106 [I]  initialize success
+2019/08/08 17:25:23.064 [E]  kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2019/08/08 17:30:01.564 [I]  initialize success
+2019/08/08 18:44:24.950 [I]  initialize success
+2019/08/08 19:21:05.990 [I]  initialize success
+2019/08/08 19:24:41.169 [I]  initialize success
+2019/08/08 19:40:21.689 [I]  initialize success
+2019/08/08 19:54:03.304 [I]  initialize success
+2019/08/08 20:39:29.539 [I]  initialize success
+2019/08/08 20:41:45.940 [I]  initialize success
+2019/08/08 20:41:53.419 [D]  config update, key:/logagent/conf/172.21.4.178, vaule:[{"log_path":"access.log","topic":"nginx_log"},{"log_path":"error.log","topic":"nginx_err"}]
+2019/08/08 21:25:50.455 [I]  initialize success
+2019/08/08 21:26:58.651 [D]  config update, key:/logagent/conf/172.21.4.178, vaule:[{"log_path":"./conf/logagent.log","topic":"nginx_log"},{"log_path":"error.log","topic":"nginx_err"}]
+2019/08/08 21:26:58.651 [W]  tail will stop, conf:{access.log nginx_log}
+2019/08/08 21:27:41.439 [D]  config update, key:/logagent/conf/172.21.4.178, vaule:[{"log_path":"./logs/logagent.log","topic":"nginx_log"},{"log_path":"error.log","topic":"nginx_err"}]
+2019/08/08 21:27:41.439 [W]  tail will stop, conf:{./conf/logagent.log nginx_log}
