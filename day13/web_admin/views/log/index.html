@@ -1,0 +1,69 @@
+<!-- BEGIN SAMPLE TABLE PORTLET-->
+
+<div class="portlet box red">
+
+	<div class="portlet-title">
+
+		<div class="caption"><i class="icon-cogs"></i>项目列表</div>
+
+		<div class="tools">
+
+			<a href="javascript:;" class="collapse"></a>
+
+			<a href="#portlet-config" data-toggle="modal" class="config"></a>
+
+			<a href="javascript:;" class="reload"></a>
+
+			<a href="javascript:;" class="remove"></a>
+
+		</div>
+
+	</div>
+
+	<div class="portlet-body">
+
+		<table class="table table-hover">
+
+			<thead>
+
+				<tr>
+
+					<th>日志ID</th>
+
+					<th>项目名称</th>
+
+					<th>日志路径</th>
+
+					<th class="hidden-480">创建时间</th>
+
+					<th>Topic</th>
+
+				</tr>
+
+			</thead>
+
+			<tbody>
+				{{range .logList}}
+				<tr>
+
+					<td>{{.LogId}}</td>
+
+					<td>{{.AppName}}</td>
+
+					<td>{{.LogPath}}</td>
+
+					<td class="hidden-480">{{.CreateTime}}</td>
+
+					<td><span class="label label-success">{{.Topic}}</span></td>
+
+				</tr>
+				{{end}}
+			</tbody>
+
+		</table>
+
+	</div>
+
+</div>
+
+<!-- END SAMPLE TABLE PORTLET-->
